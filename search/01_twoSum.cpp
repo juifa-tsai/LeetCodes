@@ -1,9 +1,10 @@
-//// Two sum, one solution only
+//// Two sum, unsorted array, one solution only
 //// Tags:  [Array] [Hash table]
 //// Level: [Easy]
 
 #include <iostream>
 #include <vector>
+#include <map>
 using namespace std;
 
 /*
@@ -38,7 +39,7 @@ vector<int> twoSum(vector<int>& numbers, int target) {
     vector<int> output;
     for( int i=0; i<numbers.size(); i++ ){
         for( int j=i+1; j<numbers.size(); j++ ){
-            if( numbers[i]+numbers[j] == target ){
+            if( numbers[j] == target - numbers[i] ){ 
                 output.push_back(i);
                 output.push_back(j);
                 return output;
@@ -51,7 +52,23 @@ vector<int> twoSum(vector<int>& numbers, int target) {
 */
 
 // 03. Hash table : O(n)
-
+vector<int> twoSum(vector<int>& numbers, int target) {
+    vector<int> output;
+    map<int, int> hashmap;
+    for( int i=0; i<numbers.size(); i++ ){
+        int complement = target-numbers[i];
+        if( hashmap.count(complement) ){
+            // Check same value as complement exist in hashmap
+            output.push_back(hashmap[complement]);
+            output.push_back(i);
+            return output;
+        }
+        // Save number, idx to hashmap
+        hashmap[numbers[i]]=i;
+    } 
+    cout<<"No tow sum found!"<<endl;
+    return output;
+}
 
 
 int main(){

@@ -1,4 +1,7 @@
 *.pyc
 *__pycache__
 *.ipynb_checkpoints
+*.json
 01_twoSum
+02_twoSum
+03_twoSum
