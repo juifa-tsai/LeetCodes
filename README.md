@@ -13,12 +13,12 @@ Algorithm exercises from LeetCode  : https://leetcode.com
 ### 1.2. Single number (easy)
 | Type | Best $O$ | Worst $O$ | code | tech tags |
 | --- | --- | --- | --- | --- |
-| [Single number](https://leetcode.com/articles/single-number/)  | $n$ | $n^2$  | [04_singleNumber.cpp](search/04_singleNumber.cpp) | `Hash table` `bit manipulation`| 
+| [Twice except for one](https://leetcode.com/articles/single-number/)  | $n$ | $n^2$  | [04_singleNumber.cpp](search/04_singleNumber.cpp) | `Hash table` `bit manipulation`| 
 
 ### 2. Other
 | Type | Best $O$ | Worst $O$ | code | tech tags |
 | --- | --- | --- | --- | --- |
-| [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/) | $n$ | $n$ | [01_fizzBuzz.cpp](other/01_fizzBuzz.cpp) | `array` | 
+| [Fizz Buzz (easy)](https://leetcode.com/problems/fizz-buzz/description/) | $n$ | $n$ | [01_fizzBuzz.cpp](other/01_fizzBuzz.cpp) | `array` | 
 
 ## Sorting
 ## DFS

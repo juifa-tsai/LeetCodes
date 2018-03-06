@@ -7,6 +7,8 @@
 #include <map>
 using namespace std;
 
+
+// O(n)
 int singleNumber(vector<int>& nums) {
     map<int, int> hashmap;
     for( int i=0; i<nums.size(); i++ ){
@@ -16,6 +18,20 @@ int singleNumber(vector<int>& nums) {
         if( it->second == 1 ) return it->first;
     }
 }
+
+/*
+// O(n) slower...
+int singleNumber(vector<int>& nums) {
+    map<int, int> hashmap;
+    hashmap[nums[0]]=0;
+    for( int i=1; i<nums.size(); i++ ){
+        if( hashmap.count(nums[i]) ) hashmap.erase(nums[i]);
+        else hashmap[nums[i]]=i;
+    }
+    return hashmap.begin()->first;
+}
+*/
+
 
 int main(){
 
