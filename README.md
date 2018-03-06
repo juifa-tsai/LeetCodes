@@ -15,6 +15,11 @@ Algorithm exercises from LeetCode  : https://leetcode.com
 | --- | --- | --- | --- | --- |
 | [Twice except for one](https://leetcode.com/articles/single-number/)  | $n$ | $n^2$  | [04_singleNumber.cpp](search/04_singleNumber.cpp) | `Hash table` `bit manipulation`| 
 
+### 1.3. Depth-first Search - DFS (easy)
+| Type | Best $O$ | Worst $O$ | code | tech tags |
+| --- | --- | --- | --- | --- |
+| [Maximum Depth of Binary Tree](https://leetcode.com/articles/single-number/)  | $n$ | $n^2$  | [05_maxDFSBT.cpp](search/05_maxDFSBT.cpp) | `tree` `DFS`| 
+
 ### 2. Other
 | Type | Best $O$ | Worst $O$ | code | tech tags |
 | --- | --- | --- | --- | --- |
