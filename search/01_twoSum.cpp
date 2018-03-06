@@ -1,4 +1,4 @@
-//// Two sum
+//// Two sum, one solution only
 //// Tags:  [Array] [Hash table]
 //// Level: [Easy]
 
@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 
+/*
 // 01. my code, O(n^2)
 vector<int> twoSum(vector<int>& numbers, int target) {
     vector<int> i_unmatch;
@@ -29,12 +30,29 @@ vector<int> twoSum(vector<int>& numbers, int target) {
     }
     return result; 
 }
+*/
 
-
+/*
 // 02. Brute force : O(n^2)
-
+vector<int> twoSum(vector<int>& numbers, int target) {
+    vector<int> output;
+    for( int i=0; i<numbers.size(); i++ ){
+        for( int j=i+1; j<numbers.size(); j++ ){
+            if( numbers[i]+numbers[j] == target ){
+                output.push_back(i);
+                output.push_back(j);
+                return output;
+            }
+        }
+    } 
+    cout<<"No tow sum found!"<<endl;
+    return output;
+}
+*/
 
 // 03. Hash table : O(n)
+
+
 
 int main(){
 
