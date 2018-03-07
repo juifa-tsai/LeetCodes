@@ -25,14 +25,13 @@ Algorithm exercises from LeetCode  : https://leetcode.com
 | --- | --- | --- | --- | --- |
 | [Maximum Depth](https://leetcode.com/articles/single-number/)  | $n$ |  | [05_maxDFSBT.cpp](search/05_maxDFSBT.cpp) | `tree` `BFS` `DFS`| 
 
-### Sorting
+## Sorting
 
-### Other
+## Other
 | Type | Best $O$ | Worst $O$ | code | tech tags |
 | --- | --- | --- | --- | --- |
 | [Fizz Buzz (easy)](https://leetcode.com/problems/fizz-buzz/description/) | $n$ | $n$ | [01_fizzBuzz.cpp](other/01_fizzBuzz.cpp) | `array` | 
 
-## Sorting
 ## DFS
 ## BFS
 ## Hash table
