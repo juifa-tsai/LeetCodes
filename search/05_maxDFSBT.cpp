@@ -1,5 +1,5 @@
-//// Single number
-//// Tags:  [Hash table] [bit manipulation]
+//// Max depth of binary tree
+//// Tags:  [tree] [DFS] [BFS]
 //// Level: [Easy]
 
 #include <iostream>
@@ -7,8 +7,8 @@
 #include <map>
 #include "../dataStructure/tree.cpp"
 using namespace std;
-
-// O(log n)
+/*
+// BFS - O(n)
 int maxDepth(TreeNode* root) {
     int l_depth=0, r_depth=0;
     if( root )
@@ -17,7 +17,14 @@ int maxDepth(TreeNode* root) {
         if( root->left )  l_depth += maxDepth(root->left);
         if( root->right ) r_depth += maxDepth(root->right);   
     }
-    return max(l_depth, r_depth);
+    return l_depth > r_depth ? l_depth : r_depth;
+    //return max(l_depth, r_depth);
+}
+*/
+
+// DFS - O(n)
+int maxDepth(TreeNode* root) {
+    return root == NULL ? 0 : max(maxDepth(root->left), maxDepth(root->right))+1;
 }
 
 int main(){
