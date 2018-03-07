@@ -1,7 +1,7 @@
 # LeetCodes
 Algorithm exercises from LeetCode  : https://leetcode.com
 
-Level colors:
+I collect the solution codes for the problems of LeetCode. Each problem contains the mine and other optimized solutions. Thus, the big $O$ in tables of the sections are showing the best and worst solution in each code. The level of problems is also denoted by the color marks as following table: 
 
 | Easy | Medium | Hard |
 | --- | --- | --- |
