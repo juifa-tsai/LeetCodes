@@ -10,7 +10,7 @@ Level colors:
 ## Data structure
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
-| Binary tree | [Creation](https://www.geeksforgeeks.org/construct-complete-binary-tree-given-array/) | | | [01_fizzBuzz.cpp](dataStructure/tree.cpp) | `tree` | :large_blue_circle: | 
+| Binary tree | [Creation](https://www.geeksforgeeks.org/construct-complete-binary-tree-given-array/) | | | [tree.cpp](dataStructure/tree.cpp) | `tree` | :large_blue_circle: | 
 
 ## Search
 
