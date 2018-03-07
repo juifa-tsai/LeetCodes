@@ -23,6 +23,9 @@ Level colors:
 | Binary tree | [Maximum Depth](https://leetcode.com/articles/single-number/)  | $n$ |  | [05_maxDFSBT.cpp](search/05_maxDFSBT.cpp) | `tree` `BFS` `DFS`| :large_blue_circle: |
 
 ## Sorting
+| Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
+| --- | --- | --- | --- | --- | --- | --- |
+| Move zeros | [Move zeros](https://leetcode.com/articles/move-zeroes/)  | $n$ | $n^2$  | [01_moveZeros.cpp](sorting/01_moveZeros.cpp) | `array` `two pointer`| :large_blue_circle: |
 
 ## Other
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
