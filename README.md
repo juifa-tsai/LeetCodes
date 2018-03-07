@@ -2,6 +2,7 @@
 Algorithm exercises from LeetCode  : https://leetcode.com
 
 Level colors:
+
 | Easy | Medium | Hard |
 | --- | --- | --- |
 | :large_blue_circle: | :large_orange_diamond: | :red_circle: | 
