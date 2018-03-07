@@ -1,5 +1,5 @@
 //// Majoriy element : find the number appears most times, i.e. > n/2 times
-//// Tags:  [Array] [devide-and-counter] [bit manipulation]
+//// Tags:  [Array] [devide-and-counter] [bit manipulation] [Hash map]
 //// Level: [Easy]
 
 #include <iostream>
@@ -7,6 +7,7 @@
 #include <map>
 using namespace std;
 
+// my code O(n)
 int majorityElement(vector<int>& nums){
     map<int, int> counts;
     for( int i=0; i<nums.size(); i++){

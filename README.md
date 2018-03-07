@@ -21,7 +21,7 @@ I collect the solution codes for the problems of LeetCode. Each problem contains
 | Two sum | [Data structure design](http://www.cnblogs.com/grandyang/p/5184143.html)  | $n$ | $n^2$  | [03_twoSum.cpp](search/03_twoSum.cpp) | `array` `class`| :large_blue_circle: | 
 | Single number | [Twice except for one](https://leetcode.com/articles/single-number/)  | $n$ | $n^2$  | [04_singleNumber.cpp](search/04_singleNumber.cpp) | `Hash table` `bit manipulation`| :large_blue_circle: | 
 | Binary tree | [Maximum Depth](https://leetcode.com/articles/single-number/)  | $n$ |  | [05_maxDFSBT.cpp](search/05_maxDFSBT.cpp) | `tree` `BFS` `DFS`| :large_blue_circle: |
-| Majority Element | [Num appears most](https://leetcode.com/articles/majority-element/) | $n$ | $n$ | [06_majorityElement.cpp](search/06_majorityElement.cpp) | `array` `devide-and-counter` `bit manipulation` | :large_blue_circle: |
+| Majority Element | [Num appears most](https://leetcode.com/articles/majority-element/) | $n$ | $n^2$ | [06_majorityElement.cpp](search/06_majorityElement.cpp) | `array` `devide-and-counter` `bit manipulation` | :large_blue_circle: |
 
 ## Sorting
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
