@@ -22,6 +22,9 @@ I collect the solution codes for the problems of LeetCode. Each problem contains
 | Single number | [Twice except for one](https://leetcode.com/articles/single-number/)  | $n$ | $n^2$  | [04_singleNumber.cpp](search/04_singleNumber.cpp) | `Hash table` `bit manipulation`| :large_blue_circle: | 
 | Binary tree | [Maximum Depth](https://leetcode.com/articles/single-number/)  | $n$ |  | [05_maxDFSBT.cpp](search/05_maxDFSBT.cpp) | `tree` `BFS` `DFS`| :large_blue_circle: |
 | Majority Element | [Num appears most](https://leetcode.com/articles/majority-element/) | $n$ | $n^2$ | [06_majorityElement.cpp](search/06_majorityElement.cpp) | `array` `devide-and-counter` `bit manipulation` | :large_blue_circle: |
+| K Frequent | [Most top K frequent elements](https://leetcode.com/problems/top-k-frequent-elements) | $n\log n$ | $n^2$ | [07_kFrequnce.cpp](search/07_kFrequnce.cpp) | `Hash table` `Heap` | :large_orange_diamond: |
+
+https://leetcode.com/problems/top-k-frequent-elements/description/
 
 ## Sorting
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
@@ -29,7 +32,7 @@ I collect the solution codes for the problems of LeetCode. Each problem contains
 | Move zeros | [Move zeros](https://leetcode.com/articles/move-zeroes/)  | $n$ | $n^2$  | [01_moveZeros.cpp](sorting/01_moveZeros.cpp) | `array` `two pointer`| :large_blue_circle: |
 | Binary-tree order | [InOrder, no recursive](https://leetcode.com/articles/binary-tree-inorder-traversal/)  | $n$ |  | [02_inorderTraversal.cpp](sorting/02_inorderTraversal.cpp) | `stack` `tree`| :large_orange_diamond: |
 | Binary-tree order | [PreOrder, no recursive](https://leetcode.com/problems/binary-tree-preorder-traversal)  | $n$ |  | [03_preorderTraversal.cpp](sorting/03_preorderTraversal.cpp) | `stack` `tree`| :large_orange_diamond: |
-| Binary-tree order | [PostOrder](https://leetcode.com/problems/binary-tree-postorder-traversal)  | $n$ |  | [04_postorderTraversal.cpp](sorting/04_postorderTraversal.cpp) | `array` `tree`| :red_circle: |
+| Binary-tree order | [PostOrder, no recursive](https://leetcode.com/problems/binary-tree-postorder-traversal)  | $n$ |  | [04_postorderTraversal.cpp](sorting/04_postorderTraversal.cpp) | `array` `tree`| :red_circle: |
 
 ## Other
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
