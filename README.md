@@ -24,8 +24,6 @@ I collect the solution codes for the problems of LeetCode. Each problem contains
 | Majority Element | [Num appears most](https://leetcode.com/articles/majority-element/) | $n$ | $n^2$ | [06_majorityElement.cpp](search/06_majorityElement.cpp) | `array` `devide-and-counter` `bit manipulation` | :large_blue_circle: |
 | K Frequent | [Most top K frequent elements](https://leetcode.com/problems/top-k-frequent-elements) | $n\log n$ | $n^2$ | [07_kFrequnce.cpp](search/07_kFrequnce.cpp) | `Hash table` `Heap` | :large_orange_diamond: |
 
-https://leetcode.com/problems/top-k-frequent-elements/description/
-
 ## Sorting
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
