@@ -10,3 +10,6 @@
 05_maxDFSBT
 06_majorityElement
 01_moveZeros
+02_inorderTraversal
+03_preorderTraversal
+04_postorderTraversal
