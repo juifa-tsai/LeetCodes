@@ -27,9 +27,9 @@ I collect the solution codes for the problems of LeetCode. Each problem contains
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
 | Move zeros | [Move zeros](https://leetcode.com/articles/move-zeroes/)  | $n$ | $n^2$  | [01_moveZeros.cpp](sorting/01_moveZeros.cpp) | `array` `two pointer`| :large_blue_circle: |
-| Tree order | [InOrder](https://leetcode.com/articles/binary-tree-inorder-traversal/)  | $n$ |  | [02_inorderTraversal.cpp](sorting/02_inorderTraversal.cpp) | `array` `tree`| :large_orange_diamond: |
-| Tree order | [preOrder](https://leetcode.com/articles/binary-tree-inorder-traversal/)  | $n$ |  | [03_preorderTraversal.cpp](sorting/03_preorderTraversal.cpp) | `array` `tree`| :large_orange_diamond: |
-| Binary-tree order | [postOrder](https://leetcode.com/articles/binary-tree-inorder-traversal/)  | $n$ |  | [04_postorderTraversal.cpp](sorting/04_postorderTraversal.cpp) | `array` `tree`| :red_circle: |
+| Binary-tree order | [InOrder, no recursive](https://leetcode.com/articles/binary-tree-inorder-traversal/)  | $n$ |  | [02_inorderTraversal.cpp](sorting/02_inorderTraversal.cpp) | `stack` `tree`| :large_orange_diamond: |
+| Binary-tree order | [PreOrder, no recursive](https://leetcode.com/problems/binary-tree-preorder-traversal)  | $n$ |  | [03_preorderTraversal.cpp](sorting/03_preorderTraversal.cpp) | `stack` `tree`| :large_orange_diamond: |
+| Binary-tree order | [PostOrder](https://leetcode.com/problems/binary-tree-postorder-traversal)  | $n$ |  | [04_postorderTraversal.cpp](sorting/04_postorderTraversal.cpp) | `array` `tree`| :red_circle: |
 
 ## Other
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
