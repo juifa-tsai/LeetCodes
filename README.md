@@ -11,6 +11,8 @@ I collect the solution codes for the problems of LeetCode. Each problem contains
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
 | Binary tree | [Creation](https://www.geeksforgeeks.org/construct-complete-binary-tree-given-array/) | | | [tree.cpp](dataStructure/tree.cpp) | `tree` | :large_blue_circle: | 
+| Linked list | Creation | | | [linkedList.cpp](dataStructure/linkedList.cpp) | `linked list` | :large_blue_circle: | 
+
 
 ## Search
 
@@ -31,6 +33,7 @@ I collect the solution codes for the problems of LeetCode. Each problem contains
 | Binary-tree order | [InOrder, no recursive](https://leetcode.com/articles/binary-tree-inorder-traversal/)  | $n$ |  | [02_inorderTraversal.cpp](sorting/02_inorderTraversal.cpp) | `stack` `tree`| :large_orange_diamond: |
 | Binary-tree order | [PreOrder, no recursive](https://leetcode.com/problems/binary-tree-preorder-traversal)  | $n$ |  | [03_preorderTraversal.cpp](sorting/03_preorderTraversal.cpp) | `stack` `tree`| :large_orange_diamond: |
 | Binary-tree order | [PostOrder, no recursive](https://leetcode.com/problems/binary-tree-postorder-traversal)  | $n$ |  | [04_postorderTraversal.cpp](sorting/04_postorderTraversal.cpp) | `array` `tree`| :red_circle: |
+| Linked list | [Odd even swap with fixed order](https://leetcode.com/problems/binary-tree-postorder-traversal)  | $n$ |  | [05_oddEvenLinkedList.cpp](sorting/05_oddEvenLinkedList.cpp) | `linked list`| :large_orange_diamond: |
 
 ## Other
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
