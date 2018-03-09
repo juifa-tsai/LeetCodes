@@ -6,8 +6,6 @@ for file in $lists
 do
     check=`grep $file .gitignore`
     if [ ! $check ]; then
-        echo $file >> .gitignore 
+        echo $file >> .gitignore
     fi
 done 
-
-#>> .gitignore
