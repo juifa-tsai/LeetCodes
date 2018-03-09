@@ -35,18 +35,13 @@ I collect the solution codes for the problems of LeetCode. Each problem contains
 | Binary-tree order | [PostOrder, no recursive](https://leetcode.com/problems/binary-tree-postorder-traversal)  | $n$ |  | [04_postorderTraversal.cpp](sorting/04_postorderTraversal.cpp) | `array` `tree`| :red_circle: |
 | Linked list | [Odd-even nodes split with fixed order](https://leetcode.com/articles/odd-even-linked-list/)  | $n$ |  | [05_oddEvenNodeSplit.cpp](sorting/05_oddEvenNodeSplit.cpp) | `linked list`| :large_orange_diamond: |
 | Linked list | Odd-even values split with fixed order  | $n^2$ |  | [06_oddEvenValueSplit.cpp](sorting/06_oddEvenValueSplit.cpp) | `linked list`| :large_orange_diamond: |
-| Linked list | Odd-even nodes split with fixed order  | $n$ |  | [07_oddEvenNodeSwap.cpp](sorting/07_oddEvenNodeSwap.cpp) | `linked list`| :large_orange_diamond: |
+| Linked list | Odd-even nodes swap with fixed order  | $n$ |  | [07_oddEvenNodeSwap.cpp](sorting/07_oddEvenNodeSwap.cpp) | `linked list`| :large_orange_diamond: |
 
 ## Other
 | Type | Detail | Best $O$ | Worst $O$ | code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
 | Coding | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/) | | | [01_fizzBuzz.cpp](other/01_fizzBuzz.cpp) | `array` | :large_blue_circle: |
 
-## DFS
-## BFS
-## Hash table
-
-## Linked list
 ## String
 
 
