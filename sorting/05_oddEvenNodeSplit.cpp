@@ -13,13 +13,13 @@ ListNode* oddEvenList(ListNode* head)
 {
     if(!head) return head;
     ListNode *odd=head, *evenhead=head->next, *even = evenhead;
+    // split even and odd
     while(even && even->next)
     {
-        odd->next = odd->next->next;
-        even->next = even->next->next;
-        odd = odd->next;
-        even = even->next;
+        odd  = odd->next = odd->next->next;
+        even = even->next = even->next->next;
     }
+    // pointer odd end to even head 
     odd->next = evenhead;
     return head;
 }
