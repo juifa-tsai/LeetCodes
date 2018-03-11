@@ -6,9 +6,23 @@
 #include <vector>
 #include <queue>
 #include <functional>
+#include <climits>
 using namespace std;
+/*
+// 01. O(n^2) : Brute solution, time exceeded
+int maxProfit(vector<int> &prices) {
+    int maxprofit = 0;
+    for (int i = 0; i < prices.size(); i++) {
+        for (int j = i + 1; j < prices.size(); j++) {
+            int profit = prices[j] - prices[i];
+            if (profit > maxprofit) maxprofit = profit;
+        }
+    }
+    return maxprofit;
+}
+*/
 
-// 01. O(n) : update min and max iterate all numbers (one pass)
+// 02. O(n) : update min and max iterate all numbers (one pass)
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/39039/Sharing-my-simple-and-clear-C++-solution
 int maxProfit(vector<int> &prices) {
     int maxProfit = 0;
@@ -22,7 +36,6 @@ int maxProfit(vector<int> &prices) {
 
 
 int main(){
-
     vector<int> input;
     input.push_back(3);
     input.push_back(2);

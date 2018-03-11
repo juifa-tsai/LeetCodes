@@ -34,7 +34,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Binary tree | [Maximum Depth](https://leetcode.com/articles/single-number/)  | $O(n)$ |  | [05_maxDFSBT.cpp](search/05_maxDFSBT.cpp) | `tree` `BFS` `DFS`| :large_blue_circle: |
 | Majority element | [Num appears most](https://leetcode.com/articles/majority-element/) | $O(n)$ | $O(n^2)$| [06_majorityElement.cpp](search/06_majorityElement.cpp) | `array` `devide-and-counter` `bit manipulation` | :large_blue_circle: |
 | K frequent | [Most top K frequent elements](http://zpjiang.me/2017/11/13/top-k-elementes-system-design/) | $O(n\log k)$/$O(n\log (n-k)$) | $O(n^2)$ | [07_kFrequnce.cpp](search/07_kFrequnce.cpp) | `Hash table` `Heap` `Priority queue` | :large_orange_diamond: |
-| Best profit to buy and sell stock | [One transaction](https://leetcode.com/articles/best-time-buy-and-sell-stock/) |  $O(n)$ |  | [08_stockBuySellOneTrans.cpp](search/08_stockBuySellOneTrans.cpp) | `array` | :large_blue_circle: |
+| Best profit to buy and sell stock | [One transaction](https://leetcode.com/articles/best-time-buy-and-sell-stock/) |  $O(n)$ |  $O(n^2)$ | [08_stockBuySellOneTrans.cpp](search/08_stockBuySellOneTrans.cpp) | `array` | :large_blue_circle: |
 
 ## Sorting
 ### Basic algorithms
