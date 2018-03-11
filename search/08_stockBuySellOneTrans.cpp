@@ -1,11 +1,9 @@
-//// The best sell and buy stock time
+//// The best sell and buy stock time : only a transaction allowed (sell before buy, either sell or buy in a day)
 //// Tags:  [Array] [DP]
 //// Level: [Easy]
 
 #include <iostream>
 #include <vector>
-#include <queue>
-#include <functional>
 #include <climits>
 using namespace std;
 /*

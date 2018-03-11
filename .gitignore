@@ -21,3 +21,4 @@
 ./rmcppBinary.sh
 08_stockBuySell
 08_stockBuySellOneTrans
+09_stockBuySellMultiTrans
