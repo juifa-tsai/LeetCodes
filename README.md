@@ -65,6 +65,8 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Type | Detail | Best solution | Worst solution | Code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
 | Coding | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/) | $O(n)$ | | [01_fizzBuzz.cpp](other/01_fizzBuzz.cpp) | `array` | :large_blue_circle: |
+| Add two numbers | [low->high](https://leetcode.com/articles/add-two-numbers/#) | $O(n)$ | | [02_addTwoNums.cpp](other/02_addTwoNums.cpp) | `linked list` | :large_orange_diamond: |
+| Add two numbers | [high->low](https://leetcode.com/articles/add-two-numbers/#) | $O(n)$ | | [03_addTwoNums.cpp](other/03_addTwoNums.cpp) | `linked list` | :large_orange_diamond: |
 
 ## String
 
