@@ -18,3 +18,6 @@
 06_oddEvenValueSplit
 07_oddEvenNodeSwap
 05_oddEvenNodeSplit
+./rmcppBinary.sh
+08_stockBuySell
+08_stockBuySellOneTrans

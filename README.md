@@ -32,8 +32,9 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Two sum | [Data structure design](http://www.cnblogs.com/grandyang/p/5184143.html)  | $O(n)$ | $O(n^2)$  | [03_twoSum.cpp](search/03_twoSum.cpp) | `array` `class`| :large_blue_circle: | 
 | Single number | [Twice except for one](https://leetcode.com/articles/single-number/)  | $O(n)$ | $O(n^2)$  | [04_singleNumber.cpp](search/04_singleNumber.cpp) | `Hash table` `bit manipulation`| :large_blue_circle: | 
 | Binary tree | [Maximum Depth](https://leetcode.com/articles/single-number/)  | $O(n)$ |  | [05_maxDFSBT.cpp](search/05_maxDFSBT.cpp) | `tree` `BFS` `DFS`| :large_blue_circle: |
-| Majority Element | [Num appears most](https://leetcode.com/articles/majority-element/) | $O(n)$ | $O(n^2)$| [06_majorityElement.cpp](search/06_majorityElement.cpp) | `array` `devide-and-counter` `bit manipulation` | :large_blue_circle: |
-| K Frequent | [Most top K frequent elements](https://leetcode.com/problems/top-k-frequent-elements) | $O(n\log n)$ | $O(n^2)$ | [07_kFrequnce.cpp](search/07_kFrequnce.cpp) | `Hash table` `Heap` | :large_orange_diamond: |
+| Majority element | [Num appears most](https://leetcode.com/articles/majority-element/) | $O(n)$ | $O(n^2)$| [06_majorityElement.cpp](search/06_majorityElement.cpp) | `array` `devide-and-counter` `bit manipulation` | :large_blue_circle: |
+| K frequent | [Most top K frequent elements](http://zpjiang.me/2017/11/13/top-k-elementes-system-design/) | $O(n\log k)$/$O(n\log (n-k)$) | $O(n^2)$ | [07_kFrequnce.cpp](search/07_kFrequnce.cpp) | `Hash table` `Heap` `Priority queue` | :large_orange_diamond: |
+| Best profit to buy and sell stock | [One transaction](https://leetcode.com/articles/best-time-buy-and-sell-stock/) |  $O(n)$ |  | [08_stockBuySellOneTrans.cpp](search/08_stockBuySellOneTrans.cpp) | `array` | :large_blue_circle: |
 
 ## Sorting
 ### Basic algorithms
@@ -45,7 +46,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Merge sort | $O(n)$ | $O(n^2)$ | [03_insertionSort.cpp](sorting/algorithm/03_insertionSort.cpp) | `divide-and-counter` |
 | Quick sort | $O(n\log n)$ | $O(n^2)$ | [04_quickSort.cpp](sorting/algorithm/04_quickSort.cpp) |
 | Radix sort | $O(n)$ | $O(n\log n)$ | [05_radixSort.cpp](sorting/algorithm/05_radixSort.cpp) |
-| Heap sort (down) | $O(n\log n)$ | $O(n\log n)$ | [06_heapSort.cpp](sorting/algorithm/05_heapSort.cpp) | `binary tree` |
+| [Heap sort](https://www.hackerearth.com/zh/practice/notes/heaps-and-priority-queues/)  | $O(n\log n)$ | $O(n\log n)$ | [06_heapSort.cpp](sorting/algorithm/05_heapSort.cpp) | `binary tree` |
 | Binary-tree sort | $O(n\log n)$ | $O(n^2)$ | [07_binaryTreeSort.cpp](sorting/algorithm/07_binaryTreeSort.cpp) | `binary tree` |
 
 ### Leetcode problems
