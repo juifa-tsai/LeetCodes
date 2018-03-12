@@ -1,5 +1,5 @@
-//// Inverse
-//// Tags:  [Linked list]
+//// Reverse int
+//// Tags:  [math]
 //// Level: [Medium]
 
 #include <iostream>
