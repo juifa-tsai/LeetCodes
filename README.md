@@ -36,6 +36,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | K frequent | [Most top K frequent elements](http://zpjiang.me/2017/11/13/top-k-elementes-system-design/) | $O(n\log k)$/$O(n\log (n-k)$) | $O(n^2)$ | [07_kFrequnce.cpp](search/07_kFrequnce.cpp) | `Hash table` `Heap` `Priority queue` | :large_orange_diamond: |
 | Best profit to buy and sell stock | [One transaction](https://leetcode.com/articles/best-time-buy-and-sell-stock/) |  $O(n)$ |  $O(n^2)$ | [08_stockBuySellOneTrans.cpp](search/08_stockBuySellOneTrans.cpp) | `array` | :large_blue_circle: |
 | Best profit to buy and sell stock | [Multi-transaction](https://leetcode.com/articles/best-time-buy-and-sell-stock-ii/) |  $O(n)$ |  $O(n^2)$ | [09_stockBuySellMultiTrans.cpp](search/09_stockBuySellMultiTrans.cpp) | `array` `Greedy` | :large_blue_circle: |
+| Max area | [Container With Most Water](https://leetcode.com/articles/container-most-water/) |  $O(n)$ |  $O(n^2)$ | [10_mostWaterContain.cpp](search/10_mostWaterContain.cpp) | `array` `two pointers` | :large_orange_diamond:|
 
 ## Sorting
 ### Basic algorithms
