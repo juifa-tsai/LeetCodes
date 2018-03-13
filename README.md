@@ -27,9 +27,9 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 ### Leetcode problems
 | Type | Detail | Best solution | Worst solution | code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
-| Two sum | [Unsorted array](https://leetcode.com/articles/two-sum/)  | $O(n)$ | $O(n^2)$ | [01_twoSum.cpp](search/01_twoSum.cpp) | `array` `Hash map`| :large_blue_circle: |
-| Two sum | [Sorted array](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)  | $O(n)$| $O(\log n)$  | [02_twoSum.cpp](search/02_twoSum.cpp) | `array` `binary search`| :large_blue_circle: | 
-| Two sum | [Data structure design](http://www.cnblogs.com/grandyang/p/5184143.html)  | $O(n)$ | $O(n^2)$  | [03_twoSum.cpp](search/03_twoSum.cpp) | `array` `class`| :large_blue_circle: | 
+| 2 sum | [Unsorted array](https://leetcode.com/articles/two-sum/)  | $O(n)$ | $O(n^2)$ | [01_twoSum.cpp](search/01_twoSum.cpp) | `array` `Hash map`| :large_blue_circle: |
+| 2 sum | [Sorted array](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)  | $O(n)$| $O(\log n)$  | [02_twoSum.cpp](search/02_twoSum.cpp) | `array` `binary search`| :large_blue_circle: | 
+| 2 sum | [Data structure design](http://www.cnblogs.com/grandyang/p/5184143.html)  | $O(n)$ | $O(n^2)$  | [03_twoSum.cpp](search/03_twoSum.cpp) | `array` `class`| :large_blue_circle: | 
 | Single number | [Twice except for one](https://leetcode.com/articles/single-number/)  | $O(n)$ | $O(n^2)$  | [04_singleNumber.cpp](search/04_singleNumber.cpp) | `Hash table` `bit manipulation`| :large_blue_circle: | 
 | Binary tree | [Maximum Depth](https://leetcode.com/articles/single-number/)  | $O(n)$ |  | [05_maxDFSBT.cpp](search/05_maxDFSBT.cpp) | `tree` `BFS` `DFS`| :large_blue_circle: |
 | Majority element | [Num appears most](https://leetcode.com/articles/majority-element/) | $O(n)$ | $O(n^2)$| [06_majorityElement.cpp](search/06_majorityElement.cpp) | `array` `devide-and-counter` `bit manipulation` | :large_blue_circle: |
@@ -37,6 +37,8 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Best profit to buy and sell stock | [One transaction](https://leetcode.com/articles/best-time-buy-and-sell-stock/) |  $O(n)$ |  $O(n^2)$ | [08_stockBuySellOneTrans.cpp](search/08_stockBuySellOneTrans.cpp) | `array` | :large_blue_circle: |
 | Best profit to buy and sell stock | [Multi-transaction](https://leetcode.com/articles/best-time-buy-and-sell-stock-ii/) |  $O(n)$ |  $O(n^2)$ | [09_stockBuySellMultiTrans.cpp](search/09_stockBuySellMultiTrans.cpp) | `array` `Greedy` | :large_blue_circle: |
 | Max area | [Container With Most Water](https://leetcode.com/articles/container-most-water/) |  $O(n)$ |  $O(n^2)$ | [10_mostWaterContain.cpp](search/10_mostWaterContain.cpp) | `array` `two pointers` | :large_orange_diamond:|
+| 4 sum | [Find 4 elements to taget sum](https://leetcode.com/problems/4sum/discuss/8549/My-16ms-c++-code) |  | | 11_notSolve.cpp | `array` `two pointers` | :large_orange_diamond:|
+| 4 sum | [Count solutions 4 arraies to zero](https://leetcode.com/problems/4sum-ii/discuss/93925/Concise-C++-11-code-beat-99.5) |  $O(n^2)$| | [12_fourSum.cpp](search/12_fourSum.cpp) | `array` `hash map` | :large_orange_diamond:|
 
 ## Sorting
 ### Basic algorithms
