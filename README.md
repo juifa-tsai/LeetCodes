@@ -72,6 +72,8 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Add two numbers | [low->high](https://leetcode.com/articles/add-two-numbers/#) | $O(n)$ | | [02_addTwoNums.cpp](other/02_addTwoNums.cpp) | `linked list` | :large_orange_diamond: |
 | Add two numbers | [high->low](https://leetcode.com/problems/add-two-numbers-ii/description/) | $O(n)$ | | [03_addTwoNums.cpp](other/03_addTwoNums.cpp) | `linked list` | :large_orange_diamond: |
 | Product of array | [product of array except self](https://leetcode.com/problems/product-of-array-except-self/discuss/65747/How-from-O(N)-to-O(1)) | $O(n)$ | | [04_productExceptSelf.cpp](other/04_productExceptSelf.cpp) | `array` `math`| :large_orange_diamond: |
+| Excel title | [number -> alphabet](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [05_excelTitleNumToAlpha.cpp](other/05_excelTitleNumToAlpha.cpp) | `string` `math`| :large_blue_circle: |
+| Excel title | [alphabet -> number](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [06_excelTitleAlphaToNum.cpp](other/06_excelTitleAlphaToNum.cpp) | `string` `math`| :large_blue_circle: |
 
 ## String
 
