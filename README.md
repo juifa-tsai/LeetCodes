@@ -71,6 +71,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Coding | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/) | $O(n)$ | | [01_fizzBuzz.cpp](other/01_fizzBuzz.cpp) | `array` | :large_blue_circle: |
 | Add two numbers | [low->high](https://leetcode.com/articles/add-two-numbers/#) | $O(n)$ | | [02_addTwoNums.cpp](other/02_addTwoNums.cpp) | `linked list` | :large_orange_diamond: |
 | Add two numbers | [high->low](https://leetcode.com/problems/add-two-numbers-ii/description/) | $O(n)$ | | [03_addTwoNums.cpp](other/03_addTwoNums.cpp) | `linked list` | :large_orange_diamond: |
+| Product of array | [product of array except self](https://leetcode.com/problems/product-of-array-except-self/discuss/65747/How-from-O(N)-to-O(1)) | $O(n)$ | | [04_productExceptSelf.cpp](other/04_productExceptSelf.cpp) | `array` `math`| :large_orange_diamond: |
 
 ## String
 
