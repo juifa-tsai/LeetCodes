@@ -25,19 +25,19 @@ int maxArea(vector<int>& height) {
 }
 */
 
-// 02. O(n) Two Pointers Approach (contradiction)
+// 02. O(n) Two Pointers Approach (contradiction method)
 int maxArea(vector<int>& height) {
     int maxA = 0;
-    int i = 0, j = height.size() - 1;
-    while(i < j)
+    int x_min = 0, x_max = height.size() - 1;
+    while(x_min < x_max)
     {
-        maxA = max(maxA, min(height[i], height[j]) * (j - i));
-        if(height[i] < height[j])
-            i++;
-        else
-            j--;
+        maxA = max(maxA, min(height[x_min], height[x_max])*(x_max - x_min));
+        // Move small height one
+        if(height[x_min] < height[x_max]) 
+            x_min++;
+        else 
+            x_max--;
     }
-
     return maxA;
 }
 

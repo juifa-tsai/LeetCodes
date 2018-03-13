@@ -62,6 +62,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Linked list | Odd-even values split with fixed order  | $O(n^2)$|  | [06_oddEvenValueSplit.cpp](sorting/06_oddEvenValueSplit.cpp) | `linked list`| :large_orange_diamond: |
 | Linked list | Odd-even nodes swap with fixed order  | $O(n)$ |  | [07_oddEvenNodeSwap.cpp](sorting/07_oddEvenNodeSwap.cpp) | `linked list`| :large_orange_diamond: |
 | Reverse int | [outupt > 32-bit not allowed](https://leetcode.com/problems/reverse-integer/discuss/4057/Shortest-code-possible-in-c++) | $O(n)$ |  | [08_reverseInt.cpp](sorting/08_reverseInt.cpp) | `math`| :large_blue_circle:  |
+| Reverse string | [Reverse string](https://leetcode.com/problems/reverse-string/description/) | $O(n)$ |  | [09_reverseString.cpp](sorting/09_reverseString.cpp) | `string` `two pointers` | :large_blue_circle:  |
 
 
 ## Other

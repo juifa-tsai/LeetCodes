@@ -1,6 +1,6 @@
 //// Reverse int
 //// Tags:  [math]
-//// Level: [Medium]
+//// Level: [Easy]
 
 #include <iostream>
 #include <stack>
