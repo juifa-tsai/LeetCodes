@@ -23,8 +23,6 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Interpolation search |  | $O(\log\log n)$ | [03_interpolationSearch.cpp](search/algorithm/03_interpolationSearch.cpp) |
 | Fibonacci search |  | $O(\log n)$ | [04_fibonacciSearch.cpp](search/algorithm/04_fibonacciSearch.cpp) |
 
-
-
 ### Leetcode problems
 | Type | Detail | Best solution | Worst solution | code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -41,8 +39,9 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | 4 sum | [Find 4 elements to taget sum](https://leetcode.com/problems/4sum/discuss/8549/My-16ms-c++-code) |  | | 11_notSolve.cpp | `array` `two pointers` | :large_orange_diamond:|
 | 4 sum | [Count solutions 4 arraies to zero](https://leetcode.com/problems/4sum-ii/discuss/93925/Concise-C++-11-code-beat-99.5) |  $O(n^2)$| | [12_fourSum.cpp](search/12_fourSum.cpp) | `array` `hash map` | :large_orange_diamond:|
 | Valid anagram | [compare two string](https://leetcode.com/articles/valid-anagram/) |  $O(n)$| $O(n\log n)$ | [13_validAnagram.cpp](search/13_validAnagram.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
-| Contains duplitcate | [Return T/F in array](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| $O(n^2)$ | [14_containsDuplicate.cpp](search/14_containsDuplicate.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
-| Contains duplitcate | [Return T/F in array within k elements](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| $O(n^2)$ | [15_containsNearbyDuplicate.cpp](search/15_containsNearbyDuplicate.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
+| Contains duplitcate | [Return T/F, in array](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| $O(n^2)$ | [14_containsDuplicate.cpp](search/14_containsDuplicate.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
+| Contains duplitcate | [Return T/F, in array within k elements](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| $O(n^2)$ | [15_containsNearbyDuplicate.cpp](search/15_containsNearbyDuplicate.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
+| Contains duplitcate | [Return T/F, in array within k elements, t difference](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| | [16_containsNearbyDuplicate.cpp](search/16_containsNearbyDuplicate.cpp) | `array` `hash map` `sort` | :large_orange_diamond: |
 
 ## Sorting
 ### Basic algorithms
