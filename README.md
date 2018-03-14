@@ -11,6 +11,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | --- | --- | --- | --- | --- |
 | Binary tree | [Creation](https://www.geeksforgeeks.org/construct-complete-binary-tree-given-array/) | [tree.cpp](dataStructure/tree.cpp) | `tree` | :large_blue_circle: | 
 | Linked list | Creation | [linkedList.cpp](dataStructure/linkedList.cpp) | `linked list` | :large_blue_circle: | 
+| Linked list | [Delete](https://leetcode.com/problems/delete-node-in-a-linked-list/discuss/65455/1-3-lines-C++JavaPythonCCJavaScriptRuby) | [01_deleteNode.cpp](dataStructure/linkedList.cpp) | `linked list` | :large_blue_circle: | 
 
 
 ## Search
@@ -77,6 +78,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Product of array | [product of array except self](https://leetcode.com/problems/product-of-array-except-self/discuss/65747/How-from-O(N)-to-O(1)) | $O(n)$ | | [04_productExceptSelf.cpp](other/04_productExceptSelf.cpp) | `array` `math`| :large_orange_diamond: |
 | Excel title | [number -> alphabet](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [05_excelTitleNumToAlpha.cpp](other/05_excelTitleNumToAlpha.cpp) | `string` `math`| :large_blue_circle: |
 | Excel title | [alphabet -> number](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [06_excelTitleAlphaToNum.cpp](other/06_excelTitleAlphaToNum.cpp) | `string` `math`| :large_blue_circle: |
+
 
 ## String
 
