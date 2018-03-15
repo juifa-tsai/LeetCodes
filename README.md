@@ -18,9 +18,9 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 ### Basic algorithms
 | Type  | Worst case | Code | Application | tech tag |
 | --- | --- | --- | --- | --- |
-| Sequential search | $O(n)$ | [01_sequentialSearch.cpp](search/algorithm/01_sequentialSearch.cpp) | unordered, frequent changing data |
-| Binary search | $O(\log n)$ | [02_binarySearch.cpp](search/algorithm/02_binarySearch.cpp) | ordered, stable data |
-| Interpolation search | $O(\log\log n)$ | [03_interpolationSearch.cpp](search/algorithm/03_interpolationSearch.cpp) | ordered, stable data |
+| Sequential search | $O(n)$ | [01_sequentialSearch.cpp](search/algorithms/01_sequentialSearch.cpp) | unordered, frequent changing data |
+| Binary search | $O(\log n)$ | [02_binarySearch.cpp](search/algorithms/02_binarySearch.cpp) | ordered, stable data |
+| Interpolation search | $O(\log\log n)$ | [03_interpolationSearch.cpp](search/algorithms/03_interpolationSearch.cpp) | ordered, stable data |
 | Fibonacci search |  $O(\log n)$ |  | ordered, stable data |
 
 ### Leetcode problems
@@ -47,14 +47,14 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 ### Basic algorithms
 | Type  | Best case | Worst case | Code | Property | Tech tag |
 | --- | --- | --- | --- | --- | --- |
-| Bubble sort | $O(n^2)$ | $O(n^2)$ | [01_bubbleSort.cpp](sorting/algorithm/01_moveZeros.cpp) | $O_s(1)$, stable |
-| Selection sort | $O(n^2)$ | $O(n^2)$ | [02_selectionSort.cpp](sorting/algorithm/02_selectionSort.cpp) | $O_s(1)$, instable |
-| Insertion sort | $O(n)$ | $O(n^2)$ | [03_insertionSort.cpp](sorting/algorithm/03_insertionSort.cpp) |
-| Merge sort | $O(n)$ | $O(n^2)$ | [04_mergeSort.cpp](sorting/algorithm/03_insertionSort.cpp) | | `divide-and-counter` |
-| Quick sort | $O(n\log n)$ | $O(n^2)$ | [05_quickSort.cpp](sorting/algorithm/04_quickSort.cpp) |
-| Radix sort | $O(n)$ | $O(n\log n)$ | [06_radixSort.cpp](sorting/algorithm/05_radixSort.cpp) |
-| [Heap sort](https://www.hackerearth.com/zh/practice/notes/heaps-and-priority-queues/)  | $O(n\log n)$ | $O(n\log n)$ | [07_heapSort.cpp](sorting/algorithm/05_heapSort.cpp) | | `binary tree` |
-| Binary-tree sort | $O(n\log n)$ | $O(n^2)$ | [08_binaryTreeSort.cpp](sorting/algorithm/07_binaryTreeSort.cpp) | | `binary tree` |
+| Bubble sort | $O(n^2)$ | $O(n^2)$ | [01_bubbleSort.cpp](sorting/algorithms/01_bubbleSort.cpp) | $O_s(1)$, stable |
+| Selection sort | $O(n^2)$ | $O(n^2)$ | [02_selectionSort.cpp](sorting/algorithms/02_selectionSort.cpp) | $O_s(1)$, instable |
+| Insertion sort | $O(n)$ | $O(n^2)$ | [03_insertionSort.cpp](sorting/algorithms/03_insertionSort.cpp) |
+| Merge sort | $O(n)$ | $O(n^2)$ | [04_mergeSort.cpp](sorting/algorithms/03_insertionSort.cpp) | | `divide-and-counter` |
+| Quick sort | $O(n\log n)$ | $O(n^2)$ | [05_quickSort.cpp](sorting/algorithms/04_quickSort.cpp) |
+| Radix sort | $O(n)$ | $O(n\log n)$ | [06_radixSort.cpp](sorting/algorithms/05_radixSort.cpp) |
+| [Heap sort](https://www.hackerearth.com/zh/practice/notes/heaps-and-priority-queues/)  | $O(n\log n)$ | $O(n\log n)$ | [07_heapSort.cpp](sorting/algorithms/05_heapSort.cpp) | | `binary tree` |
+| Binary-tree sort | $O(n\log n)$ | $O(n^2)$ | [08_binaryTreeSort.cpp](sorting/algorithms/07_binaryTreeSort.cpp) | | `binary tree` |
 
 ### Leetcode problems
 | Type | Detail | Best solution. | Worst solution | code | tech tags | Lv. |
