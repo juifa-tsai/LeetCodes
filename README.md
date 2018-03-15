@@ -45,16 +45,16 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 
 ## Sorting
 ### Basic algorithms
-| Type  | Best case | worst case | code | tech tag |
-| --- | --- | --- | --- | --- |
-| Bubble sort | $O(n^2)$ | $O(n^2)$ | [01_bubbleSort.cpp](sorting/algorithm/01_moveZeros.cpp) |
-| Selection sort | $O(n)$ | $O(n^2)$ | [02_selectionSort.cpp](sorting/algorithm/02_selectionSort.cpp) |
+| Type  | Best case | Worst case | Code | Property | Tech tag |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bubble sort | $O(n^2)$ | $O(n^2)$ | [01_bubbleSort.cpp](sorting/algorithm/01_moveZeros.cpp) | $O_s(1)$, stable |
+| Selection sort | $O(n^2)$ | $O(n^2)$ | [02_selectionSort.cpp](sorting/algorithm/02_selectionSort.cpp) | $O_s(1)$, instable | 
 | Insertion sort | $O(n)$ | $O(n^2)$ | [03_insertionSort.cpp](sorting/algorithm/03_insertionSort.cpp) |
-| Merge sort | $O(n)$ | $O(n^2)$ | [03_insertionSort.cpp](sorting/algorithm/03_insertionSort.cpp) | `divide-and-counter` |
-| Quick sort | $O(n\log n)$ | $O(n^2)$ | [04_quickSort.cpp](sorting/algorithm/04_quickSort.cpp) |
-| Radix sort | $O(n)$ | $O(n\log n)$ | [05_radixSort.cpp](sorting/algorithm/05_radixSort.cpp) |
-| [Heap sort](https://www.hackerearth.com/zh/practice/notes/heaps-and-priority-queues/)  | $O(n\log n)$ | $O(n\log n)$ | [06_heapSort.cpp](sorting/algorithm/05_heapSort.cpp) | `binary tree` |
-| Binary-tree sort | $O(n\log n)$ | $O(n^2)$ | [07_binaryTreeSort.cpp](sorting/algorithm/07_binaryTreeSort.cpp) | `binary tree` |
+| Merge sort | $O(n)$ | $O(n^2)$ | [04_mergeSort.cpp](sorting/algorithm/03_insertionSort.cpp) | | `divide-and-counter` |
+| Quick sort | $O(n\log n)$ | $O(n^2)$ | [05_quickSort.cpp](sorting/algorithm/04_quickSort.cpp) |
+| Radix sort | $O(n)$ | $O(n\log n)$ | [06_radixSort.cpp](sorting/algorithm/05_radixSort.cpp) |
+| [Heap sort](https://www.hackerearth.com/zh/practice/notes/heaps-and-priority-queues/)  | $O(n\log n)$ | $O(n\log n)$ | [07_heapSort.cpp](sorting/algorithm/05_heapSort.cpp) | | `binary tree` |
+| Binary-tree sort | $O(n\log n)$ | $O(n^2)$ | [08_binaryTreeSort.cpp](sorting/algorithm/07_binaryTreeSort.cpp) | | `binary tree` |
 
 ### Leetcode problems
 | Type | Detail | Best solution. | Worst solution | code | tech tags | Lv. |
