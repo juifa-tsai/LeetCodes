@@ -21,7 +21,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Sequential search | $O(n)$ | [01_sequentialSearch.cpp](search/algorithm/01_sequentialSearch.cpp) | unordered, frequent changing data |
 | Binary search | $O(\log n)$ | [02_binarySearch.cpp](search/algorithm/02_binarySearch.cpp) | ordered, stable data |
 | Interpolation search | $O(\log\log n)$ | [03_interpolationSearch.cpp](search/algorithm/03_interpolationSearch.cpp) | ordered, stable data |
-| Fibonacci search |  $O(\log n)$ | [04_fibonacciSearch.cpp](search/algorithm/04_fibonacciSearch.cpp) |
+| Fibonacci search |  $O(\log n)$ |  | ordered, stable data |
 
 ### Leetcode problems
 | Type | Detail | Best solution | Worst solution | code | tech tags | Lv. |

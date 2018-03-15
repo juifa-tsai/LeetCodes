@@ -2,7 +2,6 @@
 // Worst case : O(log log n)
 // Application : ordered, stable data
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
 int interpolationSearch(int a[], int a_n, int key){
@@ -12,7 +11,7 @@ int interpolationSearch(int a[], int a_n, int key){
         float x = (a[r] != a[l]) ? (key-a[l])/(a[r]-a[l]) : 0; 
         // predicted m having key
         int m = l + x*(l+r)/2;
-        
+
         if( a[m] == key ) return m;
         else if( a[m] < key ) l = m+1;
         else r = m-1;
