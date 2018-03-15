@@ -46,7 +46,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 ## Sorting
 ### Basic algorithms
 | Type  | Best case | Worst case | Code | Property | Tech tag |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | Bubble sort | $O(n^2)$ | $O(n^2)$ | [01_bubbleSort.cpp](sorting/algorithm/01_moveZeros.cpp) | $O_s(1)$, stable |
 | Selection sort | $O(n^2)$ | $O(n^2)$ | [02_selectionSort.cpp](sorting/algorithm/02_selectionSort.cpp) | $O_s(1)$, instable |
 | Insertion sort | $O(n)$ | $O(n^2)$ | [03_insertionSort.cpp](sorting/algorithm/03_insertionSort.cpp) |
