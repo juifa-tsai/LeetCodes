@@ -16,12 +16,12 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 
 ## Search
 ### Basic algorithms
-| Type  | Best case | worst case | code | tech tag |
+| Type  | Worst case | Code | Application | tech tag |
 | --- | --- | --- | --- | --- |
-| Sequential search | $O(n)$ | $O(n\log n)$ | [01_sequentialSearch.cpp](search/algorithm/01_sequentialSearch.cpp) |
-| Binary search |  | $O(\log n)$ | [02_binarySearch.cpp](search/algorithm/02_binarySearch.cpp) |
-| Interpolation search |  | $O(\log\log n)$ | [03_interpolationSearch.cpp](search/algorithm/03_interpolationSearch.cpp) |
-| Fibonacci search |  | $O(\log n)$ | [04_fibonacciSearch.cpp](search/algorithm/04_fibonacciSearch.cpp) |
+| Sequential search | $O(n)$ | [01_sequentialSearch.cpp](search/algorithm/01_sequentialSearch.cpp) | unordered, frequent changing data |
+| Binary search | $O(\log n)$ | [02_binarySearch.cpp](search/algorithm/02_binarySearch.cpp) | ordered, stable data |
+| Interpolation search | $O(\log\log n)$ | [03_interpolationSearch.cpp](search/algorithm/03_interpolationSearch.cpp) | ordered, stable data |
+| Fibonacci search |  $O(\log n)$ | [04_fibonacciSearch.cpp](search/algorithm/04_fibonacciSearch.cpp) |
 
 ### Leetcode problems
 | Type | Detail | Best solution | Worst solution | code | tech tags | Lv. |
