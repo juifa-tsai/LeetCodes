@@ -6,20 +6,21 @@
 #include "../dataStructure/linkedList.cpp"
 using namespace std;
 
-// 01. iterate O(N)
-    ListNode* reverseList(ListNode* head) {
-        ListNode* new_head = new ListNode(0);
-        new_head -> next = head;
-        ListNode* pre = new_head;
-        ListNode* cur = head; 
-        while (cur && cur -> next) {
-            ListNode* temp = pre -> next;
-            pre -> next = cur -> next;
-            cur -> next = cur -> next -> next; 
-            pre -> next -> next = temp;
-        }
-        return new_head -> next;
+// 01. iterate O(N) : replace head
+ListNode* reverseList(ListNode* head) {
+    ListNode* new_head = new ListNode(0);
+    new_head -> next = head;
+    ListNode* pre = new_head;
+    ListNode* cur = head; 
+    while (cur && cur -> next) {
+        ListNode* temp = pre -> next;
+        pre -> next = cur -> next;
+        cur -> next = cur -> next -> next; 
+        pre -> next -> next = temp;
+        //printLinkedList(new_head);
     }
+    return new_head -> next;
+}
 
 int main(){
     // Linked listed creation
