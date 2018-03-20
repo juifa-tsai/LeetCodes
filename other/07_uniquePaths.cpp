@@ -6,7 +6,7 @@
 #include <vector>
 using namespace std;
 
-// 01. time O(n^2), space (m*n)
+// 01. time O(n^2), space O(m*n) : any box is from either top or left, p[i][j] = path[i - 1][j] + path[i][j - 1]
 int uniquePaths(int m, int n) {
     vector<vector<int> > path(m, vector<int> (n, 1));
     for (int i = 1; i < m; i++)
@@ -15,6 +15,17 @@ int uniquePaths(int m, int n) {
     return path[m - 1][n - 1];
 }
 
+/*
+// 02 time O(n^2), space O(1) 
+int uniquePaths(int m, int n) {
+    if (m > n) return uniquePaths(n, m);
+    vector<int> cur(m, 1);
+    for (int j = 1; j < n; j++)
+        for (int i = 1; i < m; i++)
+            cur[i] += cur[i - 1]; 
+    return cur[m - 1];
+}
+*/
 int main(){
     int m=5;
     int n=10;
