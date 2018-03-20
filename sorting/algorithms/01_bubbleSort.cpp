@@ -5,6 +5,8 @@
 #include <iostream>
 using namespace std;
 
+/*
+// my code : forward check & swap
 void bubbleSort(int a[], int a_n){
     for( int i=0; i<a_n; i++ ){
         for( int j=i+1; j<a_n; j++){
@@ -16,9 +18,22 @@ void bubbleSort(int a[], int a_n){
         }
     }
 }
+*/
+// book : fix limit, forward check
+void bubbleSort(int a[], int a_n){
+    for( int i=a_n-1; i>0; i-- ){
+        for( int j=0; j<i; j++){
+            if( a[j] > a[j+1] ){
+                int tmp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = tmp;
+            }
+        }
+    }
+}
 
 int main(){
-    int a[]={6,7,3,8,9,5,2,1,7,9};
+    int a[]={6,5,3,8,9,5,2,1,7,9};
 
     bubbleSort(a, sizeof(a)/sizeof(a[0]) );
 

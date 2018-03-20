@@ -9,6 +9,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 ## Data structure
 | Type | Detail | code | tech tags | Lv. |
 | --- | --- | --- | --- | --- |
+| Array | toVector | [array.cpp](dataStructure/array.cpp) | `array` | :large_blue_circle: | 
 | Binary tree | [Creation](https://www.geeksforgeeks.org/construct-complete-binary-tree-given-array/) | [tree.cpp](dataStructure/tree.cpp) | `tree` | :large_blue_circle: | 
 | Linked list | Creation | [linkedList.cpp](dataStructure/linkedList.cpp) | `linked list` | :large_blue_circle: | 
 | Linked list | [Delete](https://leetcode.com/problems/delete-node-in-a-linked-list/discuss/65455/1-3-lines-C++JavaPythonCCJavaScriptRuby) | [01_deleteNode.cpp](dataStructure/linkedList.cpp) | `linked list` | :large_blue_circle: | 
@@ -42,6 +43,8 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Contains duplitcate | [Return T/F, in array](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| $O(n^2)$ | [14_containsDuplicate.cpp](search/14_containsDuplicate.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
 | Contains duplitcate | [Return T/F, in array within k elements](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| $O(n^2)$ | [15_containsNearbyDuplicate.cpp](search/15_containsNearbyDuplicate.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
 | Contains duplitcate | [Return T/F, in array within k elements, t difference](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| | [16_containsNearbyDuplicate.cpp](search/16_containsNearbyDuplicate.cpp) | `array` `hash map` `sort` | :large_orange_diamond: |
+| Find smallest positive | [Not in sorted array](https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/) |  $O(n)$| | [17_findSmallestPos.cpp](search/17_findSmallestPos.cpp) | `array`  | :large_blue_circle: |
+| Find smallest positive | [Not in unsorted array](https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/) |  $O(n)$| | [18_findSmallestPos.cpp](search/18_findSmallestPos.cpp) | `array` `hashmap` `unordered_set` | :large_orange_diamond: |
 
 ## Sorting
 ### Basic algorithms
@@ -66,8 +69,9 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Linked list | [Odd-even nodes split with fixed order](https://leetcode.com/articles/odd-even-linked-list/)  | $O(n)$ |  | [05_oddEvenNodeSplit.cpp](sorting/05_oddEvenNodeSplit.cpp) | `linked list`| :large_orange_diamond: |
 | Linked list | Odd-even values split with fixed order  | $O(n^2)$|  | [06_oddEvenValueSplit.cpp](sorting/06_oddEvenValueSplit.cpp) | `linked list`| :large_orange_diamond: |
 | Linked list | Odd-even nodes swap with fixed order  | $O(n)$ |  | [07_oddEvenNodeSwap.cpp](sorting/07_oddEvenNodeSwap.cpp) | `linked list`| :large_orange_diamond: |
-| Reverse int | [outupt > 32-bit not allowed](https://leetcode.com/problems/reverse-integer/discuss/4057/Shortest-code-possible-in-c++) | $O(n)$ |  | [08_reverseInt.cpp](sorting/08_reverseInt.cpp) | `math`| :large_blue_circle:  |
-| Reverse string | [Reverse string](https://leetcode.com/problems/reverse-string/description/) | $O(n)$ |  | [09_reverseString.cpp](sorting/09_reverseString.cpp) | `string` `two pointers` | :large_blue_circle:  |
+| Reverse | [Int, outupt > 32-bit not allowed](https://leetcode.com/problems/reverse-integer/discuss/4057/Shortest-code-possible-in-c++) | $O(n)$ |  | [08_reverseInt.cpp](sorting/08_reverseInt.cpp) | `math`| :large_blue_circle:  |
+| Reverse | [String](https://leetcode.com/problems/reverse-string/description/) | $O(n)$ |  | [09_reverseString.cpp](sorting/09_reverseString.cpp) | `string` `two pointers` | :large_blue_circle:  |
+| Reverse | [Linked list](https://leetcode.com/articles/reverse-linked-list/) | $O(n)$ |  | [10_reverseLinkedList.cpp](sorting/10_reverseLinkedList.cpp) | `linked list` | :large_blue_circle:  |
 
 
 ## Other
