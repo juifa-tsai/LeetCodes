@@ -75,6 +75,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Reverse | [Int, outupt > 32-bit not allowed](https://leetcode.com/problems/reverse-integer/discuss/4057/Shortest-code-possible-in-c++) | $O(n)$ |  | [08_reverseInt.cpp](sorting/08_reverseInt.cpp) | `math`| :large_blue_circle:  |
 | Reverse | [String](https://leetcode.com/problems/reverse-string/description/) | $O(n)$ |  | [09_reverseString.cpp](sorting/09_reverseString.cpp) | `string` `two pointers` | :large_blue_circle:  |
 | Reverse | [Linked list](https://leetcode.com/articles/reverse-linked-list/) | $O(n)$ |  | [10_reverseLinkedList.cpp](sorting/10_reverseLinkedList.cpp) | `linked list` | :large_blue_circle:  |
+| Rotate image | [Clockwise 90 rotate nxn matrix](https://leetcode.com/problems/rotate-image/discuss/19123/6-lines-of-code-and-with-O(1)-space-in-c++) | $O(n)$ |  $O(n^2)$ | [11_rotateImage.cpp](sorting/11_rotateImage.cpp) | `array` | :large_orange_diamond:  |
 
 
 ## Other
