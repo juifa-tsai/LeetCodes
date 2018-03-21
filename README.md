@@ -92,6 +92,6 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Type | Detail | Best solution | Worst solution | Code | tech tags | Lv. |
 | --- | --- | --- | --- | --- | --- | --- |
 | Unique paths | [MxN from top-left to bottom-right](https://leetcode.com/problems/unique-paths/discuss/22954/0ms-5-lines-DP-Solution-in-C++-with-Explanations) | $O(n^2)$ | | [01_uniquePaths.cpp](dynamicProgramming/01_uniquePaths.cpp) | `array` | :large_orange_diamond: |
-| Climbing Stairs | [Only 1 & 2 steps allowed](https://leetcode.com/articles/climbing-stairs/) | $O(\log n)$ | $O(n)$ | [02_uniquePaths.cpp](dynamicProgramming/02_uniquePaths.cpp) | `math` | :large_blue_circle: |
+| Climbing Stairs | [Only 1 & 2 steps allowed](https://leetcode.com/articles/climbing-stairs/) | $O(\log n)$ | $O(n)$ | [02_climbingStairs.cpp](dynamicProgramming/02_climbingStairs.cpp) | `math` | :large_blue_circle: |
 
 
