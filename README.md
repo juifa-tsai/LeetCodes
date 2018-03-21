@@ -43,8 +43,10 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Contains duplitcate | [Return T/F, in array](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| $O(n^2)$ | [14_containsDuplicate.cpp](search/14_containsDuplicate.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
 | Contains duplitcate | [Return T/F, in array within k elements](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| $O(n^2)$ | [15_containsNearbyDuplicate.cpp](search/15_containsNearbyDuplicate.cpp) | `array` `hash map` `sort` | :large_blue_circle:|
 | Contains duplitcate | [Return T/F, in array within k elements, t difference](https://leetcode.com/articles/contains-duplicate/) |  $O(n)$| | [16_containsNearbyDuplicate.cpp](search/16_containsNearbyDuplicate.cpp) | `array` `hash map` `sort` | :large_orange_diamond: |
-| Find smallest positive | [Not in sorted array](https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/) |  $O(n)$| | [17_findSmallestPos.cpp](search/17_findSmallestPos.cpp) | `array`  | :large_blue_circle: |
-| Find smallest positive | [Not in unsorted array](https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/) |  $O(n)$| | [18_findSmallestPos.cpp](search/18_findSmallestPos.cpp) | `array` `hashmap` `unordered_set` | :large_orange_diamond: |
+| Missing number | [First missing postive in sorted array](https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/) |  $O(n)$| | [17_missingNum.cpp](search/17_missingNum.cpp) | `array`  | :large_blue_circle: |
+| Missing number  | [First missing postive in unsorted array](https://leetcode.com/problems/first-missing-positive/discuss/17071/My-short-c++-solution-O(1)-space-and-O(n)-time) |  $O(n)$| $O(n\log n)$ | [18_missingNum.cpp](search/18_missingNum.cpp) | `array` `hashmap` `unordered_set` | :large_red_diamond: |
+| Missing number  | [Missing in continual positive array](https://leetcode.com/articles/missing-number/) |  $O(n)$| $O(n\log n)$ | [19_missingNum.cpp](search/19_missingNum.cpp) | `array` `hashmap` `unordered_set` `math` | :large_orange_diamond: |
+
 
 ## Sorting
 ### Basic algorithms

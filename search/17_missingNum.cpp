@@ -1,4 +1,4 @@
-//// Find smallest positive : find the smallest positive which is not in the "sorted" array.
+//// Missing number : find the first missing positive which is not in the "sorted" array.
 //// Tags:  [Array]
 //// Level: [Easy]
 #include <iostream>
@@ -7,7 +7,7 @@
 using namespace std;
 
 // 01. my code O(n); 
-int findSmallest(vector<int>& nums){
+int firstMissingPositive(vector<int>& nums){
     int smallest = 1;
     for( int i=0; i<nums.size(); i++){
         if( smallest == nums[i] ) smallest = nums[i]+1;
@@ -21,6 +21,6 @@ int main(){
     vector<int> input = arrayToVector(a, sizeof(a)/sizeof(a[0]));
     printVector(input);
 
-    cout<<"Smallest int not in array : "<<findSmallest(input)<<endl;
+    cout<<"Missing postive : "<<firstMissingPositive(input)<<endl;
 
 }
