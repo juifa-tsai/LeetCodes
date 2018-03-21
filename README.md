@@ -84,6 +84,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Excel title | [number -> alphabet](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [05_excelTitleNumToAlpha.cpp](other/05_excelTitleNumToAlpha.cpp) | `string` `math`| :large_blue_circle: |
 | Excel title | [alphabet -> number](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [06_excelTitleAlphaToNum.cpp](other/06_excelTitleAlphaToNum.cpp) | `string` `math`| :large_blue_circle: |
 | Unique paths | [MxN from top-left to bottom-right](https://leetcode.com/problems/unique-paths/discuss/22954/0ms-5-lines-DP-Solution-in-C++-with-Explanations) | $O(n^2)$ | | [07_uniquePaths.cpp](other/07_uniquePaths.cpp) | `array` `Dynamic programming`| :large_orange_diamond: |
+| Game of life | [Die or live](https://leetcode.com/problems/game-of-life/discuss/73230/C++-O(1)-space-O(mn)-time) | $O(mn)$ | | [08_gameOfLife.cpp](other/08_gameOfLife.cpp) | `array` | :large_orange_diamond: |
 
 ## String
 

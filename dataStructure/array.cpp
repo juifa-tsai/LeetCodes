@@ -34,4 +34,18 @@ void printVector( vector<T> v ){
     cout<<"]"<<endl;
 }
 
+template<typename T>
+void print2DVector( vector<vector<T> > v ){
+    int xsize = v.size();
+    cout<<"V["<<xsize<<"] = ["<<endl;
+    for( int i=0; i<xsize; i++){
+        cout<<"[ ";
+        for( int j=0; j<v[i].size(); j++){
+            cout<<v[i][j]<<" ";
+        }
+        cout<<"]"<<endl;
+    }
+    cout<<"]"<<endl;
+}
+
 #endif
