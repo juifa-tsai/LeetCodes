@@ -86,9 +86,12 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Product of array | [product of array except self](https://leetcode.com/problems/product-of-array-except-self/discuss/65747/How-from-O(N)-to-O(1)) | $O(n)$ | | [04_productExceptSelf.cpp](other/04_productExceptSelf.cpp) | `array` `math`| :large_orange_diamond: |
 | Excel title | [number -> alphabet](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [05_excelTitleNumToAlpha.cpp](other/05_excelTitleNumToAlpha.cpp) | `string` `math`| :large_blue_circle: |
 | Excel title | [alphabet -> number](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [06_excelTitleAlphaToNum.cpp](other/06_excelTitleAlphaToNum.cpp) | `string` `math`| :large_blue_circle: |
-| Unique paths | [MxN from top-left to bottom-right](https://leetcode.com/problems/unique-paths/discuss/22954/0ms-5-lines-DP-Solution-in-C++-with-Explanations) | $O(n^2)$ | | [07_uniquePaths.cpp](other/07_uniquePaths.cpp) | `array` `Dynamic programming`| :large_orange_diamond: |
-| Game of life | [Die or live](https://leetcode.com/problems/game-of-life/discuss/73230/C++-O(1)-space-O(mn)-time) | $O(mn)$ | | [08_gameOfLife.cpp](other/08_gameOfLife.cpp) | `array` | :large_orange_diamond: |
+| Game of life | [Die or live](https://leetcode.com/problems/game-of-life/discuss/73230/C++-O(1)-space-O(mn)-time) | $O(mn)$ | | [07_gameOfLife.cpp](other/07_gameOfLife.cpp) | `array` | :large_orange_diamond: |
 
-## String
+## Dynamic programming
+| Type | Detail | Best solution | Worst solution | Code | tech tags | Lv. |
+| --- | --- | --- | --- | --- | --- | --- |
+| Unique paths | [MxN from top-left to bottom-right](https://leetcode.com/problems/unique-paths/discuss/22954/0ms-5-lines-DP-Solution-in-C++-with-Explanations) | $O(n^2)$ | | [01_uniquePaths.cpp](dynamicProgramming/01_uniquePaths.cpp) | `array` | :large_orange_diamond: |
+| Climbing Stairs | [Only 1 & 2 steps allowed](https://leetcode.com/articles/climbing-stairs/) | $O(\log n)$ | $O(n)$ | [02_uniquePaths.cpp](dynamicProgramming/02_uniquePaths.cpp) | `math` | :large_blue_circle: |
 
 
