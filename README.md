@@ -88,6 +88,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Excel title | [number -> alphabet](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [05_excelTitleNumToAlpha.cpp](other/05_excelTitleNumToAlpha.cpp) | `string` `math`| :large_blue_circle: |
 | Excel title | [alphabet -> number](https://leetcode.com/problems/excel-sheet-column-title/discuss/51398/My-1-lines-code-in-Java-C++-and-Python) | $O(n)$ | | [06_excelTitleAlphaToNum.cpp](other/06_excelTitleAlphaToNum.cpp) | `string` `math`| :large_blue_circle: |
 | Game of life | [Die or live](https://leetcode.com/problems/game-of-life/discuss/73230/C++-O(1)-space-O(mn)-time) | $O(mn)$ | | [07_gameOfLife.cpp](other/07_gameOfLife.cpp) | `array` | :large_orange_diamond: |
+| Happy number | [Squre sum digits iteratively](https://leetcode.com/problems/happy-number/description/) | $O(n)$ | | [08_happyNumber.cpp](other/08_happyNumber.cpp) | `math` | :large_blue_circle: |
 
 ## Dynamic programming
 | Type | Detail | Best solution | Worst solution | Code | tech tags | Lv. |
