@@ -48,6 +48,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Missing number  | [First missing postive in unsorted array](https://leetcode.com/problems/first-missing-positive/discuss/17071/My-short-c++-solution-O(1)-space-and-O(n)-time) |  $O(n)$| $O(n\log n)$ | [19_missingNum.cpp](search/19_missingNum.cpp) | `array` `hashmap` `unordered_set` | :red_circle: |
 | Missing number  | [Missing in continual positive array](https://leetcode.com/articles/missing-number/) |  $O(n)$| $O(n\log n)$ | [20_missingNum.cpp](search/20_missingNum.cpp) | `array` `hashmap` `unordered_set` `math` | :large_orange_diamond: |
 | Word chain  | [Alphabet order](http://www.voidcn.com/article/p-pvygmonn-bd.html) |  $O(n)$| | [21_wordChain.cpp](search/21_wordChain.cpp) | `string` `hashmap` | :large_orange_diamond: |
+| Count   | [Alphabet order](http://www.voidcn.com/article/p-pvygmonn-bd.html) |  $O(n)$| | [21_wordChain.cpp](search/21_wordChain.cpp) | `string` `hashmap` | :large_orange_diamond: |
 
 
 ## Sorting
