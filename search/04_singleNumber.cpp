@@ -17,6 +17,7 @@ int singleNumber(vector<int>& nums) {
     for( map<int, int>::iterator it=hashmap.begin(); it!= hashmap.end(); it++ ){
         if( it->second == 1 ) return it->first;
     }
+    return -1;
 }
 
 /*

@@ -24,7 +24,7 @@ ListNode *createLinkedList(ListNode* head, int val[], int i, int i_end){
 // Leetcode : https://leetcode.com/problems/delete-node-in-a-linked-list/discuss/65455/1-3-lines-C++JavaPythonCCJavaScriptRuby
 void deleteNode(ListNode* node) {
     ListNode* next = node->next;
-    *node = *next; // replace pointer
+    *node = *next; // replace value
     delete next;
 }
 

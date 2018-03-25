@@ -49,7 +49,6 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | Missing number  | [Missing in continual positive array](https://leetcode.com/articles/missing-number/) |  $O(n)$| $O(n\log n)$ | [20_missingNum.cpp](search/20_missingNum.cpp) | `array` `hashmap` `unordered_set` `math` | :large_orange_diamond: |
 | Word chain  | [Alphabet order](http://www.voidcn.com/article/p-pvygmonn-bd.html) |  $O(n)$| | [21_wordChain.cpp](search/21_wordChain.cpp) | `string` `hashmap` | :large_orange_diamond: |
 | Count lsland  | [number of lsland](https://leetcode.com/problems/number-of-islands/description/) |  $O(n^2)$| | [22_countIsland.cpp](search/22_countIsland.cpp) | `DFS` | :large_orange_diamond: |
-| Course  | [Course schedule I](https://leetcode.com/problems/course-schedule/discuss/58509/18-22-lines-C++-BFSDFS-Solutions) |  $O(n^2)$| | [23_course.cpp](search/23_course.cpp) | `DFS` | :large_orange_diamond: |
 
 
 ## Sorting
@@ -99,5 +98,11 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | --- | --- | --- | --- | --- | --- | --- |
 | Unique paths | [MxN from top-left to bottom-right](https://leetcode.com/problems/unique-paths/discuss/22954/0ms-5-lines-DP-Solution-in-C++-with-Explanations) | $O(n^2)$ | | [01_uniquePaths.cpp](dynamicProgramming/01_uniquePaths.cpp) | `array` | :large_orange_diamond: |
 | Climbing Stairs | [Only 1 & 2 steps allowed](https://leetcode.com/articles/climbing-stairs/) | $O(\log n)$ | $O(n)$ | [02_climbingStairs.cpp](dynamicProgramming/02_climbingStairs.cpp) | `math` | :large_blue_circle: |
+
+## Graph
+| Type | Detail | Best solution | Worst solution | Code | tech tags | Lv. |
+| --- | --- | --- | --- | --- | --- | --- |
+| Course  | [Course schedule I](https://leetcode.com/problems/course-schedule/discuss/58509/18-22-lines-C++-BFSDFS-Solutions) |  $O(n^2)$| | [01_course.cpp](graph/01_course.cpp) | `DFS` | :large_orange_diamond: |
+| Distance  | Capital to cities, tree graph |  $O(n)$| | [02_distance.cpp](graph/02_distance.cpp) | `tree` `DFS` | :large_orange_diamond: |
 
 
