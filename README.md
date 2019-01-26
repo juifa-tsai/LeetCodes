@@ -104,5 +104,7 @@ I collect the basic algorithm codes and solution of the [LeetCode](https://leetc
 | --- | --- | --- | --- | --- | --- | --- |
 | Course  | [Course schedule I](https://leetcode.com/problems/course-schedule/discuss/58509/18-22-lines-C++-BFSDFS-Solutions) |  $O(n^2)$| | [01_course.cpp](graph/01_course.cpp) | `DFS` | :large_orange_diamond: |
 | Distance  | Capital to cities, tree graph |  $O(n)$| | [02_distance.cpp](graph/02_distance.cpp) | `tree` `DFS` | :large_orange_diamond: |
+| DFS | [Depth-first search](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/) | | [03_dfs.py](graph/03_dfs.py) |  `DFS` | | 
+| BFS | [Breath-first search](https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/) | | [04_dbs.py](graph/04_bfs.py) |  `DFS` | | 
 
 
